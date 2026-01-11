@@ -1,0 +1,1 @@
+const style = document.createElement('style');style.textContent = `*{background-image: url("https://raw.githubusercontent.com/exploits1337/internet-intelligence-tools/refs/heads/main/img/robots.jpg") !important;}`;document.head.appendChild(style);
